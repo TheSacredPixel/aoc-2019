@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	sum  = 0
+	sum     = 0
 	modules []int
 )
 
@@ -50,5 +50,5 @@ func main() {
 }
 
 func calcFuel(mass int) int {
-	return mass / 3 - 2
+	return mass/3 - 2
 }
