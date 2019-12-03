@@ -52,7 +52,7 @@ func main() {
 	memory := run(intCodes, 12, 2)
 	fmt.Println(memory[0])
 
-	//To complete the gravity assist, you need to determine what pair of inputs produces the output 19690720."
+	//To complete the gravity assist, you need to determine what pair of inputs produces the output 19690720.
 	//The inputs should still be provided to the program by replacing the values at addresses 1 and 2, just like before.
 	//In this program, the value placed in address 1 is called the noun, and the value placed in address 2 is called the verb.
 	//Each of the two input values will be between 0 and 99, inclusive.
