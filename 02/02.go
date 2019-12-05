@@ -40,12 +40,12 @@ func main() {
 	scanner.Split(bufio.ScanRunes)
 	currInt := ""
 	for scanner.Scan() {
-		if scanner.Text() != "," {
-			currInt += scanner.Text()
-		} else {
+		if scanner.Text() == "," || scanner.Text() == "\n" {
 			i, _ := strconv.Atoi(currInt)
 			intCodes = append(intCodes, i)
 			currInt = ""
+		} else {
+			currInt += scanner.Text()
 		}
 	}
 	//run with 1202 state
